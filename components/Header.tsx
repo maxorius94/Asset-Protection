@@ -75,6 +75,7 @@ const Hero: React.FC = () => {
                     <Button href="#booking">
                         Book a Free Call
                     </Button>
+                </div>
                 <div id="calendar-section" className="h-[620px] rounded-lg overflow-hidden shadow-2xl border border-gray-700/50">
                     <Booking />
                 </div>

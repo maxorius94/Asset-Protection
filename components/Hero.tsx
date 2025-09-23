@@ -10,7 +10,6 @@ const Hero: React.FC = () => {
   return (
     <>
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-20 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1612550856788-b76251b3e346?q=80&w=1600&auto=format&fit=crop')" }}>
-        <div className="absolute inset-0 bg-brand-dark bg-opacity-80"></div>
         <Container className="relative z-10 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-extrabold font-serif leading-tight mb-4">
             One Lawsuit. One Verdict. <br className="hidden md:block"/> A Lifetime of Savings — <span className="text-brand-gold">Gone.</span>

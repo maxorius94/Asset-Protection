@@ -21,39 +21,6 @@ const Hero: React.FC = () => {
         </Container>
       </section>
 
-      <section className="bg-brand-dark pb-20 -mt-1">
-        <Container>
-          <div className="max-w-xs mx-auto bg-slate-900 p-2 rounded-xl shadow-2xl border border-gray-700/50">
-            <div className="relative overflow-hidden rounded-lg" style={{ paddingTop: '177.77%' /* 9:16 Aspect Ratio */ }}>
-              {playVideo ? (
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?rel=0&modestbranding=1&autoplay=1`}
-                  title="Why Surgeons Need Asset Protection"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              ) : (
-                <button
-                  onClick={() => setPlayVideo(true)}
-                  className="absolute top-0 left-0 w-full h-full bg-cover bg-center cursor-pointer group focus:outline-none focus:ring-2 focus:ring-brand-gold focus:ring-offset-2 focus:ring-offset-slate-900 rounded-lg"
-                  style={{ backgroundImage: `url(https://img.youtube.com/vi/${YOUTUBE_VIDEO_ID}/maxresdefault.jpg)` }}
-                  aria-label="Play video on asset protection for surgeons"
-                >
-                  <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center rounded-lg">
-                    <div className="bg-brand-gold/80 backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-10 h-10 text-brand-dark ml-1" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-              )}
-            </div>
-          </div>
-        </Container>
-      </section>
 
       <section className="bg-brand-dark pb-20">
         <Container>

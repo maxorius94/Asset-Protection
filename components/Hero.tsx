@@ -13,7 +13,6 @@ const Hero: React.FC = () => {
       </Container>
     </section>
   );
-  );
 };
 
 export default Hero;

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Container from './ui/Container';
-import Button from './ui/Button';
 import Booking from './Booking';
 
 const Hero: React.FC = () => {
-  const YOUTUBE_VIDEO_ID = 'XKT2yk6uHFo';
+  return (
     <>
     <section className="bg-brand-dark pb-20">
       <Container>
@@ -13,6 +12,7 @@ const Hero: React.FC = () => {
         </div>
       </Container>
     </section>
+  );
   );
 };
 

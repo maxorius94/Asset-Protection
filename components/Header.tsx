@@ -75,18 +75,6 @@ const Hero: React.FC = () => {
                     <Button href="#booking">
                         Book a Free Call
                     </Button>
-                </div>
-                <div className="flex flex-wrap justify-center gap-4 mb-8">
-                    <Button href="#booking" className="transform scale-110">
-                        Book Your Free Strategy Call
-                    </Button>
-                    <Button href="#booking" variant="secondary">
-                        Schedule Your Confidential Call
-                    </Button>
-                    <Button href="#booking">
-                        Book a Free Call
-                    </Button>
-                </div>
                 <div id="calendar-section" className="h-[620px] rounded-lg overflow-hidden shadow-2xl border border-gray-700/50">
                     <Booking />
                 </div>

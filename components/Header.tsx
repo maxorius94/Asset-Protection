@@ -55,6 +55,33 @@ const Hero: React.FC = () => {
             </div>
         </Container>
       </section>
+
+      <section className="py-20 bg-slate-900">
+        <Container>
+            <div className="max-w-4xl mx-auto">
+                <h2 id="booking" className="text-4xl font-bold font-serif text-center mb-8 text-white scroll-mt-20">
+                    Book Your <span className="text-brand-gold">Strategic Call</span>
+                </h2>
+                 <p className="mt-4 text-lg text-gray-400 max-w-3xl mx-auto text-center mb-8">
+                    Schedule your complimentary, confidential asset protection strategy call below.
+                </p>
+                <div className="flex flex-wrap justify-center gap-4 mb-8">
+                    <Button href="#booking" className="transform scale-110">
+                        Book Your Free Strategy Call
+                    </Button>
+                    <Button href="#booking" variant="secondary">
+                        Schedule Your Confidential Call
+                    </Button>
+                    <Button href="#booking">
+                        Book a Free Call
+                    </Button>
+                </div>
+                <div id="calendar-section" className="h-[620px] rounded-lg overflow-hidden shadow-2xl border border-gray-700/50">
+                    <Booking />
+                </div>
+            </div>
+        </Container>
+      </section>
     </>
   );
 };
